@@ -1,0 +1,292 @@
+; Stand
+[Statedef 40000]
+type = S
+physics = S
+sprpriority = 0
+
+[State 0, ChangeState]
+type = ChangeState
+trigger1 = parent, life <= 600
+value = 45000
+ctrl = 1
+
+[State 0, ChangeState]
+type = ChangeState
+trigger1 = parent, command = "down_a"
+triggerall = power >= 3000
+value = 40411
+ctrl = 1
+
+
+[State 0, ChangeState]
+type = ChangeState
+trigger1 = p2life = 0
+value = 45000
+ctrl = 1
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 1
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = !time
+v = 29    ;fv = 10
+value = 1000
+
+[State 20000, 1]
+type = ChangeAnim
+trigger1 = Anim != 40000 && Anim != 40005
+trigger2 = Anim = 40005 && AnimTime = 0 ;Turn anim over
+value = 40000
+
+[State 20000, 2]
+type = VelSet
+trigger1 = Time = 0
+y = 0
+
+[State 20000, 3] ;Stop moving if low velocity or 4 ticks pass
+type = VelSet
+trigger1 = abs(vel x) < 2
+trigger2 = Time = 4
+x = 0
+
+[State 0, HitOverride]
+type = HitOverride
+trigger1 = time = 0
+attr = SCA, NT, ST, HT, NA, SA, HA,NP,SP,HP
+stateno = 160094
+time = -1
+
+[State 20000, Turn]
+type = Turn
+trigger1 = p2bodydist x <=-20
+
+[State 20000, 4]
+type = ChangeState
+trigger1 = P2BodyDist x >=70 & stateno != 40020 & time >=1 & random <= 900
+value = 40020
+
+
+[State 20000, 4]
+type = ChangeState
+trigger1 = random <= 500 & time >= 5 & p2bodydist x <= 100
+value = 40200
+
+;----------------------------------------------------------------------
+;----------------------------------------------------------------------
+; Walk
+[Statedef 40020]
+type    = S
+physics = S
+sprpriority = 0
+
+[State 0, ChangeState]
+type = ChangeState
+trigger1 = parent, command = "down_a"
+triggerall = power >= 3000
+value = 40411
+ctrl = 1
+
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 1
+
+[State 20020, 1]
+type = VelSet
+trigger1 = time >= 30 & random <= 300 & p2bodydist x >= 20
+x = 7
+
+[State 20020, 1]
+type = VelSet
+trigger1 = time >= 30 & random <= 200 & p2bodydist x <=20
+x = -7
+
+
+
+
+[State 20020, 3]
+type = ChangeAnim
+triggerall = vel x > 0
+trigger1 = Anim != 40020 && Anim != 40005
+trigger2 = Anim = 40005 && AnimTime = 0
+value =40020
+
+[State 20020, 4]
+type = ChangeAnim
+triggerall = vel x < 0
+trigger1 = Anim != 40021 && Anim != 40005
+trigger2 = Anim = 40005 && AnimTime = 0
+value = 40021
+
+
+[State 20000, 4]
+type = ChangeState
+trigger1 = time >= 80
+value = 40000
+
+;--------------------------------------------------------------------
+;------------------------------------------------------------------------
+[StateDef 40200]
+type = A
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 40200
+poweradd = 0
+sprpriority = 2
+
+[State 0, ChangeState]
+type = ChangeState
+trigger1 = parent, command = "down_a"
+triggerall = power >= 3000
+value = 40411
+ctrl = 1
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 1
+
+[State 200,***]
+type = AssertSpecial
+trigger1 =1
+flag = noautoturn
+
+[State 200, 1]
+type = HitDef
+trigger1 = animelem = 4
+attr = S, NA
+damage = 25, 20
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 0, 0
+sparkno = 11
+sparkxy = 0, -20
+hitsound = S1, 1
+guardsound = S2,2
+ground.type = High
+ground.slidetime = 5
+ground.hittime  = 12
+ground.velocity = -7
+airguard.velocity = -1.9,-.8
+air.type = High
+air.velocity = -1.4,-3
+air.hittime = 12
+
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 =  animelem = 4
+time = 1
+freq = 60
+ampl = -4
+phase = 90
+
+
+[State 200, end]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 40000
+ctrl = 1
+
+;-----------------------------------------------------------------------
+;-----------------------------------------------------------------------
+[StateDef 160094]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 40000
+poweradd = 0
+sprpriority = 2
+
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 1
+
+[State 0, ScreenBound]
+type = ScreenBound
+trigger1 = 1
+value = 1
+movecamera = 0,0
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = !time
+v = 29    ;fv =
+value = -gethitvar(damage)
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 1
+
+[State 15008, end]
+type = changestate
+trigger1 = animtime = 0
+value =40000
+ctrl = 1
+
+
+[StateDef 40411]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 40200
+poweradd = -3000
+sprpriority = 2
+
+[State 3010,2]
+triggerall = var(40) = 0
+type = helper
+trigger1 = AnimElem = 3
+id = 3020
+pos = 0,0
+postype = p1
+stateno = 4444
+helpertype = normal
+ownpal = 1
+keyctrl = 1
+
+
+[State 15008, end]
+type = changestate
+trigger1 = animtime = 0
+value =30000
+ctrl = 1
+;-----------------------------------------------------------------------
+;dead
+[Statedef 45000]
+type    = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 45000
+poweradd = 0
+sprpriority = 2
+
+[State 1000,***]
+type = AssertSpecial
+trigger1 =1
+flag = noautoturn
+
+[State 6003, DestroySelf]
+type = DestroySelf
+trigger1 =animtime = 0

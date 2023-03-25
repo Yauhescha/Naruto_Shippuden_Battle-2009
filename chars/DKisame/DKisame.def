@@ -1,0 +1,20 @@
+[Info]
+name="DKisame"
+displayname="KISAME"
+versiondate=
+mugenversion=
+author="Twins cool & Sannin"
+pal.defaults=1,2,3,4
+[Files]
+sprite=DKisame.sff
+sound=DKisame.snd
+anim=DKisame.air
+cmd=DKisame.cmd
+cns=DKisame.cns
+st=DKisame.cns
+stcommon=common1.cns
+pal1=Kisame.act
+st1=bunshin.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

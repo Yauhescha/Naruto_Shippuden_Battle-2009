@@ -1,0 +1,19 @@
+[Info]
+name="DRockLee"
+displayname="ROCK LEE"
+versiondate=
+mugenversion=
+author="Twins Cool"
+pal.defaults=1
+[Files]
+sprite=DRockLee.sff
+sound=DRockLee.snd
+anim=DRockLee.air
+cmd=DRockLee.cmd
+cns=DRockLee.cns
+st=DRockLee.cns
+stcommon=common1.cns
+pal1=DRockLee.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

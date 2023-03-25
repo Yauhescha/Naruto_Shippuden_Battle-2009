@@ -1,0 +1,20 @@
+                         Orochimaru
+                         Movie
+                         
+X,X,X - Combo
+A - Chakra
+B - Teleport
+X(In Damage) - Kawarami
+C - Kusanagi Trow
+Start - Foton
+Z - Slam
+D,Start - Fear
+D,Y - Kusanagi
+D,B - Snake
+D,A - Body
+D,Z - Big Snake
+D,C - Snakes
+D,F,B - Regeneration
+D,F,C - Manda
+D,F,Z - Ritual
+

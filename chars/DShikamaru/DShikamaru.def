@@ -1,0 +1,19 @@
+[Info]
+name="DShikamaru"
+displayname="SHIKAMARU"
+versiondate=
+mugenversion=
+author="Twins Cool"
+pal.defaults=
+[Files]
+sprite=DShikamaru.sff
+sound=DShikamaru.snd
+anim=DShikamaru.air
+cmd=DShikamaru.cmd
+cns=DShikamaru.cns
+st=DShikamaru.cns
+stcommon=common1.cns
+pal1=DShikamaru.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

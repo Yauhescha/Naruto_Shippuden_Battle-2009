@@ -1,0 +1,19 @@
+[Info]
+name="DTsunade"
+displayname="TSUNADE"
+versiondate=
+mugenversion=
+author="Twins _cool"
+pal.defaults=
+[Files]
+sprite=DTsunade.sff
+sound=DTsunade.snd
+anim=DTsunade.air
+cmd=DTsunade.cmd
+cns=DTsunade.cns
+st=DTsunade.cns
+stcommon=common1.cns
+pal1=DTsunade.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

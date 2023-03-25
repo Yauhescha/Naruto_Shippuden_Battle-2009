@@ -1,0 +1,20 @@
+[Info]
+name="DYamato"
+displayname="Yamato"
+versiondate=
+mugenversion=
+author="Twins cool"
+pal.defaults=
+[Files]
+sprite=DYamato.sff
+sound=DYamato.snd
+anim=DYamato.air
+cmd=DYamato.cmd
+cns=DYamato.cns
+st=DYamato.cns
+stcommon=common1.cns
+pal1=DYamato.act
+st1=bunshin.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

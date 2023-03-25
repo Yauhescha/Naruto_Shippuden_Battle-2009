@@ -1,0 +1,63 @@
+
+
+-----------------------------------
+M.U.G.E.N ver 2003.06.14 status log
+-----------------------------------
+Parsing command line...
+Command line: C:\Users\Administrator\Desktop\naruto\Naruto Shippuden Battle\Naruto Shippuden Battle.exe
+Parse command line OK
+Initializing...
+Allocating game variables
+Reading configuration file...OK
+Checking DX version...0x700
+Initializing timer...OK
+Initializing keyboard...configuring...OK
+Initializing input engine...OK
+Initializing sound...OK
+Initializing graphics...trying 640x480x32 mode 0x4458574E...success...OK
+Setting callbacks...OK
+Initializing game variables...OK
+Loading system fonts...OK
+Loading options...
+Initializing pads...failed
+Reinitializing input engine...OK
+Remapping keys...OK
+Reinitializing input engine...OK
+Options loaded OK
+Loading system...
+  Load system file system.def...OK
+  Load system fonts...OK
+  Load system anim...OK
+  Load [Title Info]...OK
+  Load [Option Info]...OK
+  Load [Select Info]...OK
+  Load [VS Screen]...OK
+  Load [Demo Mode]...OK
+  Load [Continue Screen]...OK
+  Load [Game Over Screen]...OK
+  Load [Win Screen]...OK
+  Load [Survival Results Screen]...OK
+  Load [Default Ending]...OK
+  Load [End Credits]...OK
+  Load TitleBG...VersusBG...SelectBG...OptionBG...OK
+  Loading fight data
+    Opening fight data file data/fight.def...OK
+    Reading [Files]...OK
+    Loading fonts...OK
+    Load fight anim...OK
+    Reading [Lifebar]...[Turns Lifebar]...[Simul Lifebar]...[Powerbar]...
+    [Face]...[Simul Face]...[Turns Face]...
+    [Name]...[Simul Name]...[Turns Name]...
+    [Time]...[Combo]...[Round]...[WinIcon]...OK
+    Allocating explods...OK
+  Fight data loaded OK
+System loaded OK
+Initialize OK
+Set up graphics...timer...OK
+Playing storyboard intro.def: scene
+Storyboard file not found: intro.defInitializing character info...OK
+Initializing select screen...finding characters...OK
+Entering main loop.
+Playing storyboard logo.def: scene
+Storyboard playback canceled 80:0 k4B p0
+Finished playing storyboard logo.def: scene

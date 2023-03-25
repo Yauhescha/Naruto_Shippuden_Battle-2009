@@ -1,0 +1,105 @@
+;The Valley of the End by Blunted
+
+[Info]
+name = "The Valley of The End"
+
+[BGdef]
+spr = valley.sff
+debugbg = 0
+
+[Music]
+bgmusic = sound/Turn Over.mp3
+bgvolume = 255
+
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -150
+boundright = 350
+boundhigh = -350
+boundlow = 0
+verticalfollow = 1
+floortension = 30
+tension = 60
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0            
+p1startz = 0            
+p1facing = 1        
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000 
+rightbound = 1000 
+topbound  =  0     
+botbound  =  0     
+
+[Scaling] 
+topz     = 0       
+botz     = 50      
+topscale = 1       
+botscale = 1.2     
+
+[Bound]
+screenleft = 15    
+screenright = 15  
+
+[StageInfo]
+zoffset = 225
+autoturn = 1
+resetBG = 1
+
+[shadow]
+Intensity = 128
+color = 0,0,0
+yscale = .05
+fade.range = -400,-100
+
+[Reflection]
+intensity = 0
+
+;----------------------------------------[PCX IMAGE]
+[BG 0]
+type  = normal
+spriteno = 0, 0
+layerno = 0                
+start = -160, 0
+delta = .5,.5
+trans = none
+tile = 1,1
+;---------------------------------------
+[BG Mountain]
+type  = normal
+spriteno = 2,1
+start = -310,240 
+mask = 1
+;---------------------------------------
+[BG Waterfall]
+type  = anim
+actionno = 1
+start = -310,210
+mask = 1
+;---------------------------------------
+[BG Mountain]
+type  = normal
+spriteno = 2,1
+start = -310,240 
+mask = 1
+;---------------------------------------
+[BG Fighting Ground]
+type  = normal
+spriteno = 1,1
+start = -310,240  
+mask = 1
+;---------------------------------------[/PCX IMAGE]
+
+
+[Begin action 1]
+3,1, 0,0, 7
+3,2, 0,0, 7
+3,3, 0,0, 7

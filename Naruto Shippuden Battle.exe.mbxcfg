@@ -1,0 +1,147 @@
+
+box.encrypt=1
+box.separate=0
+box.ziplevel=1
+dir.addfiles=E:\Cool boys\Наруто\Игры\Naruto Shippuden Battle
+exe.crc=0
+exe.pack=1
+exe.packedfilesvisible=1
+exe.source=E:\Cool boys\Наруто\Игры\Naruto Shippuden Battle\Naruto Shippuden Battle.exe
+exe.target=E:\Cool boys\Наруто\Игры\NSB\Naruto Shippuden Battle.exe
+
+box.contents~
+00 ALLEG40.DLL
+00 mugenw.log
+00 Naruto Shippuden Battle.exe
+00 Naruto Shippuden Battle.exe.mbxcfg
+00 SPECIALS.txt
+00 Untitled-1.ico
+00 zlib.DLL
+00 Data\airedit.cfg
+00 Data\airedit.cfg.cfg
+00 Data\big.fnt
+00 Data\common.snd
+00 Data\common1.cns
+00 Data\f-4x6.fnt
+00 Data\f-6x9.fnt
+00 Data\fight.def
+00 Data\fight.sff
+00 Data\fight.snd
+00 Data\fight2.sff
+00 Data\fightfx.air
+00 Data\fightfx.sff
+00 Data\Game Info and Credits.txt
+00 Data\gameover.def
+00 Data\gameover.sff
+00 Data\jg.fnt
+00 Data\LOGO.DEF
+00 Data\LOGO.sff
+00 Data\mugen.cfg
+00 Data\mugenw.log
+00 Data\QOH_BIG.FNT
+00 Data\Qoh_small.fnt
+00 Data\select.def
+00 Data\Soundlogo.mp3
+00 Data\system.cmd
+00 Data\system.def
+00 Data\system.sff
+00 Data\system.snd
+00 Data\time.fnt
+00 font\1.pcx
+00 font\f-4x6.fnt
+00 font\f-6x9.fnt
+00 font\f-6x9f.fnt
+00 font\f-pad.fnt
+00 font\fatoutline8x7.fnt
+00 font\Gcombo.fnt
+00 font\inu.fnt
+00 font\inu1.fnt
+00 font\jg.fnt
+00 font\kof2k1time.fnt
+00 font\kof2kname.fnt
+00 font\n-4x6.fnt
+00 font\name1.fnt
+00 font\naru.fnt
+00 font\naru1.fnt
+00 font\Naruto.fnt
+00 font\naruto2.fnt
+00 font\NMenu.fnt
+00 font\NMenuEmpty.fnt
+00 font\NMenuEmpty.ttf
+00 font\NName.fnt
+00 font\NNames.fnt
+00 font\NNames2.fnt
+00 font\NRush.fnt
+00 font\NTimer.fnt
+00 font\num1.fnt
+00 font\rush.fnt
+00 font\time.fnt
+00 font\timer.fnt
+00 plugins\cncs.dll
+00 plugins\cncs32.dll
+00 plugins\hist.txt
+00 plugins\In_Adx.dll
+00 plugins\in_cdda.dll
+00 plugins\in_cube.dll
+00 plugins\in_dshow.dll
+00 plugins\IN_MAD.DLL
+00 plugins\in_mad.txt
+00 plugins\in_midi.dll
+00 plugins\in_mod.dll
+00 plugins\in_mp.dll
+00 plugins\in_mp3.dll
+00 plugins\in_mp3PRO.dll
+00 plugins\in_mp4.dll
+00 plugins\in_nsv.dll
+00 plugins\in_vorbis.dll
+00 plugins\in_wave.dll
+00 plugins\in_wm.dll
+00 plugins\libMAD.dll
+00 plugins\plugin.ini
+00 plugins\Readme.txt
+00 plugins\zlib.dll
+00 sound\Akatsuki.mp3
+00 sound\Alone.mp3
+00 sound\Dark Clouds.mp3
+00 sound\Gaara.mp3
+00 sound\Geki.mp3
+00 sound\Harukakanata.mp3
+00 sound\HeavyViolence.mp3
+00 sound\Hokage.mp3
+00 sound\Jinchuuriki.mp3
+00 sound\lee.mp3
+00 sound\Menu2.mp3
+00 sound\naruto_fight.mp3
+00 sound\Sadness and Sorrow.mp3
+00 sound\Sasuke.mp3
+00 sound\Turn Over.mp3
+00 sound\VS.mp3
+00 sound\Vybor.mp3
+00 stages\Akatsuki Entrance.def
+00 stages\Akatsuki Entrance.sff
+00 stages\akatsuki lair.def
+00 stages\akatsuki lair.sff
+00 stages\Chunin Exam Arena.sff
+00 stages\Chunin Exam Stage.def
+00 stages\LeeStage.def
+00 stages\LeeStage.sff
+00 stages\MtHokage.def
+00 stages\MtHokage.sff
+00 stages\Preliminar.def
+00 stages\Preliminar.sff
+00 stages\Sakon.def
+00 stages\Sakon.sff
+00 stages\SAM_earthquake.def
+00 stages\SAM_earthquake.sff
+00 stages\samuraistyle.def
+00 stages\samuraistyle.sff
+00 stages\sfa2ryubg.sff
+00 stages\svc_forest.def
+00 stages\svc_forest.sff
+00 stages\Uchiha District.def
+00 stages\Uchiha District.sff
+00 stages\valley.def
+00 stages\valley.sff
+00 stages\Woods_of_Death.def
+00 stages\Woods_of_Death.sff
+~

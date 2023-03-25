@@ -1,0 +1,86 @@
+; Definition of KFM's stage
+; *** denotes values you should change/check for each stage.
+; The term "background" is used to mean both backgrounds and foregrounds.
+
+;--------------------------------------------------------
+[Info]
+name = "Akatsuki Entrance"
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+
+boundleft = -70
+boundright = 60
+boundhigh = -300
+boundlow = 0
+verticalfollow = .5
+floortension = 1
+tension = 60
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -500
+rightbound = 380
+topbound  =  0
+botbound  =  0
+
+;--------------------------------------------------------
+[Scaling]
+topz  = 0
+botz  = 50
+topscale = 1
+botscale = 1.2
+
+;--------------------------------------------------------
+[Bound]
+screenleft = -0
+screenright = -300
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 200
+autoturn = 1
+resetBG = 1
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 0
+color = 0,0,0
+yscale = 0.4
+fade.range = -400,100
+
+;--------------------------------------------------------
+[Reflection]
+intensity=100
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound\Dark Clouds.mp3
+bgvolume = 255
+
+;--------------------------------------------------------
+[BGDef]
+spr = Akatsuki Entrance.sff
+debugbg = 0
+
+;--------------------------------------------------------
+[BG Floor]
+type  = normal
+spriteno = 1,1
+start = 0, 181
+delta = 1,1
+xscale = 1, 1.75
+yscalestart = 100
+yscaledelta = 1.2

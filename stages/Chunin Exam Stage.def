@@ -1,0 +1,107 @@
+
+;--------------------------------------------------------
+[Info]
+name = "Chunin Exam Arena"
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+
+boundleft = -320
+boundright = 200
+boundhigh = -25
+boundlow = 1
+verticalfollow =.2
+floortension = 0
+tension = 60
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound = 1000
+topbound  =  0
+botbound  =  0
+
+;--------------------------------------------------------
+[Scaling]
+topz  = 0
+botz  = 50
+topscale = 1
+botscale = 1.2
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15
+screenright = 15
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 200
+autoturn = 1
+resetBG = 1
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 64
+color = 0,0,0
+yscale = 0.4
+fade.range = -400,100
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/naruto_fight.mp3
+bgvolume = 255
+
+
+;--------------------------------------------------------
+[BGDef]
+spr = Chunin Exam Arena.sff
+debugbg = 0
+
+;--------------------------------------------------------
+[BG Floor]
+type  = normal
+spriteno = 0,2
+start = 0, 181
+delta = .75,.78
+xscale = 1, 1.75
+yscalestart = 100
+yscaledelta = 1.2
+mask = 1
+
+[BG Floor]
+type  = normal
+spriteno = 0,0
+start = 0, 181
+delta = .75,.78
+xscale = 1, 1.75
+yscalestart = 100
+yscaledelta = 1.2
+mask = 1
+
+[BG Floor]
+type  = normal
+spriteno = 0,1
+start = 0, 181
+delta = .75,.78
+xscale = 1, 1.75
+yscalestart = 100
+yscaledelta = 1.2
+actionno = 1
+mask = 1
+

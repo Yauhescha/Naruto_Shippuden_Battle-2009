@@ -1,0 +1,105 @@
+;サムライスピリッツ　アースクエイクステージ       NO.03
+; from 蒼月 光 (Hikaru Aotsuki)
+;------------------------------------------------
+[Info]
+name = "Desert"
+;------------------------------------------------
+[Music]
+bgmusic = sound/Sasuke.mp3
+bgvolume = 255
+bgm.loop = 1
+;------------------------------------------------
+[BGdef]
+spr     = stages/SAM_earthquake.sff
+debugbg = 1
+;------------------------------------------------
+
+;------------------------------------------------
+[Camera]
+startx         = 0
+starty         = 0
+boundleft      = -168
+boundright     = 150
+boundhigh      = -128
+boundlow       = 0
+verticalfollow = 0.3 
+tension        = 60
+;------------------------------------------------
+[PlayerInfo]
+p1startx   = -90
+p1starty   = 0
+p1startz   = 0
+p1facing   = 1
+p2startx   = 85
+p2starty   = 0
+p2startz   = 0
+p2facing   = -1
+leftbound  = -1000
+rightbound =  1000
+topbound   =  0   
+botbound   =  0   
+;------------------------------------------------
+[Scaling]    
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+;------------------------------------------------
+[Bound]  
+screenleft  = 15
+screenright = 15
+;------------------------------------------------
+[StageInfo]
+zoffset  = 215 
+autoturn = 1
+resetBG  = 0
+;------------------------------------------------
+[Shadow]
+color = 120, 120, 120  
+yscale = -0.1
+reflect = 0  
+
+;[BG 背景]
+[BG background]
+type  = normal
+spriteno = 0,0
+layerno = 0  
+start = -160,-16
+delta = 1,1
+mask = 1
+
+;[BG 毛玉1]
+[BG kedama1]
+type = anim
+actionno = 10
+layerno = 0
+start = 360,131
+delta = 1,1
+mask = 1
+tile = 1,0
+tilespacing = 1000,0
+velocity = -2.0,0
+
+[Begin Action 10] 
+ 10,0,-188,-147, 9
+ 10,1,-188,-146, 9
+ 10,2,-188,-132, 9
+ 10,3,-188,-146, 9
+
+;[BG 毛玉2] 
+[BG kedama2]  
+type = anim
+actionno = 20
+layerno = 1
+start = 360,177
+delta = 1,1
+mask = 1
+tile = 1,0
+tilespacing = 2000,0
+velocity = -3.0,0
+
+[Begin Action 20] 
+ 20,0,-280,-193, 9
+ 20,1,-280,-193, 9
+ 20,2,-280,-193, 9
+ 20,3,-280,-193, 9

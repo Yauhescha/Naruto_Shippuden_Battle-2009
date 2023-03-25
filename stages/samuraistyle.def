@@ -1,0 +1,200 @@
+[Info]
+name = "Samurai Style"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -152
+boundright = 152
+boundhigh = -163
+boundlow = 0
+verticalfollow = 0.5
+floortension = 0
+tension = 50
+
+
+[PlayerInfo]
+p1startx = -70          
+p1starty = 0           
+p1startz = 0            
+p1facing = 1           
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+leftbound  = -1000 
+rightbound =  1000 
+topbound  =  0     
+botbound  =  0     
+
+
+[Scaling]
+topz     = 0      
+botz     = 50     
+topscale = 1      
+botscale = 1.2    
+
+
+[Bound]
+screenleft = 15    
+screenright = 15   
+
+[StageInfo]
+zoffset = 227
+autoturn = 1
+resetBG = 1
+
+
+[Shadow]
+color = 60,60,60
+yscale = .1
+reflect = 0
+
+[Music]
+bgmusic = sound/Jinchuuriki.mp3
+bgvolume = 255
+
+
+[BGdef]
+spr = stages/samuraistyle.sff
+debugbg = 0
+
+[BG 0]
+type = anim
+actionno = 1
+start = -160,-123
+delta = 0.47368,0.75
+
+[BG 1]
+type = normal
+spriteno = 1,0
+start = -312,-163
+delta = 1,1
+mask = 1
+
+[BG 2]
+type = anim
+actionno = 2
+start = 112,100
+delta = 1,1
+
+[BG 3]
+type = anim
+actionno = 3
+start = -210,87
+delta = 1,1
+
+[BG 4]
+type = anim
+actionno = 4
+id=4
+start = 225,240
+delta = 1,1
+layerno = 1
+
+[BGCtrlDef 4]
+looptime = 1308
+CtrlID = 4
+
+[BGCtrl 4.1]
+type = PosSet
+time = 60
+x = 0
+
+[BGCtrl 4.2]
+type = VelSet
+time = 0
+x = -4
+
+[BG 5]
+type = anim
+actionno = 5
+id=5
+start = 0,240
+delta = 1,1
+layerno = 1
+
+[BGCtrlDef 5]
+looptime = 3048
+CtrlID = 5
+
+[BGCtrl 5.1]
+type = PosSet
+time = 600
+x = 0
+
+[BGCtrl 5.2]
+type = VelSet
+time = 0
+x = -4
+
+[BG 6]
+type = anim
+actionno = 6
+start = -128,21
+delta = 1,1
+
+[Begin Action 1]
+0,0,0,0,600
+0,1,0,0,1
+0,0,0,0,1
+0,1,0,0,1
+0,0,0,0,1
+0,1,0,0,1
+0,0,0,0,1
+0,1,0,0,1
+0,0,0,0,1
+0,1,0,0,1
+
+[Begin Action 2]
+2,3,0,0,8
+2,1,0,0,8
+2,2,0,0,8
+2,3,0,0,8
+2,0,0,0,8
+2,1,0,0,8
+2,2,0,0,8
+
+[Begin Action 3]
+3,3,0,0,8
+3,2,0,0,8
+3,1,0,0,8
+3,0,0,0,8
+
+[Begin Action 4]
+4,12,0,0,60
+4,0,0,0,4
+4,1,0,0,4
+4,2,0,0,4
+4,3,0,0,4
+4,4,0,0,4
+4,5,0,0,4
+4,6,0,0,4
+4,7,0,0,4
+4,8,0,0,4
+4,9,0,0,4
+4,10,0,0,4
+4,11,0,0,4
+4,12,0,0,1200
+
+[Begin Action 5]
+4,12,0,0,600
+4,0,0,0,4
+4,1,0,0,4
+4,2,0,0,4
+4,3,0,0,4
+4,4,0,0,4
+4,5,0,0,4
+4,6,0,0,4
+4,7,0,0,4
+4,8,0,0,4
+4,9,0,0,4
+4,10,0,0,4
+4,11,0,0,4
+4,12,0,0,2400
+
+[Begin Action 6]
+5,0,0,0,50
+5,1,0,0,50
+5,2,0,0,50
+5,1,0,0,50

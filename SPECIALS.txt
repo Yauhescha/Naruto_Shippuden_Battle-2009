@@ -1,0 +1,334 @@
+                    Specials and Movies all chars!
+
+                       All Chars Can:
+XXX - Combo
+Y - Trow Weapon
+B - Teleport
+A - Chakra Charge
+X(Damage) - Kawarami
+
+
+                                Naruto
+
+D,B - Hunter Jutsu
+D,F,Y - Frog Summon
+Start -  Sexy Jutsu
+D,Start - Garem Jutsu
+D,Y - Bunshin-Suriken
+D,A - Naruto Rendan
+C - Kage Bunshin no Jutsu
+D,C - Tazu Kage Bunshin no Jutsu
+Z - Rasengan
+D,Z - Oodama Rasengan
+(800HP and 5000PW) D,F,Z - Rasengan-Suriken (Kill All One Hit)
+D,F,C or 300HP - Kuibi 3 Tail
+Z - Kuibi Rasengan
+Y - Kuibi Hand and Head-Shot!
+C - Kuibi Chakra Punch
+(300HP) - 4 Tail Kuibi
+D,Z - Blast
+D,C - Hand
+
+                           Sasuke
+Start - Sharingan
+D,Z(hold) - Katon
+X(in Air) - Katon Huusinka No Jutsu 
+D,A - Snake
+Z - Chidory Blade
+D,B(hold) - Chidory Nagashi
+D,Y - Chidory
+D,C - Kirin
+D,Start(400HP) - Mangekie Sharingan
+C - CS2
+D,Z(hold) - CS2 Katon
+D,A -  CS2 Snake
+Z - Fly (X - Atack  C - Refly)
+D,A(hold) - CS2 Chidory Nagashi
+D,Y - CS2 Chidory
+D,C - CS2 Kirin
+D,Start(400HP) - CS2 Mangekie Sharingan
+
+P.S. - Player 2 Name Tobi And He Make Sharingan - Saske Make Amaterasu (3000PW)
+
+                                Sakura
+Z - Mega Head Shot
+C - Inner Sakura
+S - Health Push
+D,Z - Barabooom!
+D,C - Stoyne
+D,S - Health
+                                 
+                                 Sai
+Z - Bird 
+C - Lion 
+S - Snake
+D,S - Mouse
+D,Z - Dragon
+D,C - 3 Lions
+D,B - Fly
+
+                                 Kakashi
+Start - Sharingan
+D,Z(hold) - Katon
+B(in Air) - Katon Huusinka No Jutsu 
+D,B - Hunter Jutsu
+D,A - Dogs
+Z - Suiton: Suirodon No Jutsu
+C - Raikiri
+D,C - Raikiri X2
+D,Y(400HP) - Mangekie Shiringan (D,F,B,A - Control  Start - Atack)   
+
+                                     Neji
+Y - Byakugan (All atack Take Power plaers 2)
+Z(hold) - Hakkeshou Kaiten
+D,Z - Hakke Kuushou
+D,B - Hakke Hasangeki
+C(Only in Byakugan) - Hakke Rokujuuyonshou
+D,C(Only in Byakugan) - Hakke Hiakinijuuhatsu
+                                 
+                                    Rock Lee
+Z - Rendan
+D,Z - Omote Renge
+C - Konoha Senpu
+D,C - Super Combo
+D,Y - Remove Weight
+Start - 5 Gates Open
+D,Z - Yra Renge
+C - Mega Konoha Senpu
+
+                                      Yamato
+Z - Three Punch
+D,Z - Hight Three Punch
+C - Three Bolt
+D,C - Three Box
+Start(hold) - Block
+D,Start - Bambook
+D,F, Start - Three Klon (2 Max)
+D,Y(hold) - Three Shoushenk (Take Power player 2)
+D,B - Three Kyuu
+D,A - Very Hight Three Punch 
+D,F,Y - Three Podium
+D,F,Z - Three Dead
+ 
+                                 Jiraya
+Start(hold) - Block (X - Atack)
+Z(hold) - Katon
+D,C(hold) - Frog Katon
+D,Z - Rasengan
+D,A - Frogs Rain
+D,F,B - Barrer
+D,Y(400HP) - Hermic Mode
+Start - Hermic Block (X - Atack)
+Z(hold) - Hermic Senpo Friture
+D,Z - Hermic Che Oodama Rasengan
+D,C - Frog Genjutsu
+C - In Frog
+
+                             Tsunade 
+Z - Pig
+C - Legs Punch
+S - Health Push 
+D,B - little Health
+D,A - Big Health
+D,Z - God of Slim
+D,C - Stoyn
+D,S - New Life
+D,Y - Slim
+
+                             Orochimaru
+Z - Slaim
+C - Breath of Dead
+Start - Futon
+D,B - Snake Little
+D,A - ReBody
+D,Y - Kusanagi
+D,Z - Snake
+D,C - Many Little Snake
+D,F,C - Manda
+D,F,B - Hight ReBody
+D,F,Z(400HP) - Ritual of White Snake
+
+P.S. - Ritual Dont Work Vs. Tobi, Sasuke and Itachi Becouse His Have are Sharingan! Ritual Kill Orochimaru!
+
+                               Kabuto
+Z - Health
+D,Z - Many Health
+C - Chacra Punch
+D,C - Hight Chacra Punch
+D,F,C - Kabuchimaru
+S - Health Push
+ 
+P.S. - Kabuto Avto Regenick Health 
+
+                                Asuma
+Z - Punch
+D,Z - Hight Punch
+C(hold) - Katon
+D,B - Many Blades
+D,Y - Blade
+D,A - Head Shot (Player 2 800Hp)
+
+                                Shikamaru
+S - Kage (Z to Attack)
+D,Z - Kage Kill
+D,F,Z - Kuii (400HP Big BOOM)
+D,S - Kage Hand
+
+ 
+                               Gaara
+Z - Sand Wave
+D,Z - Hight Sand Wave
+D,C - Sand Klon
+D,B - Sabaku Kyuu
+Start(hold) - Block (X - Atack)
+D,Y - Sand Imperial Dead
+D,Start - Fly (X - Atack  C - Refly)
+c - Shikaku (Z - Wind)
+
+                               Kankuro
+Z - Karasu
+C - Shanshuu
+S - Summon Karasu
+D,Z - Doll Show
+D,C - Doll Combo
+
+
+                              Temari
+Z - Air
+C - Storm
+D,Z - Bobr
+D,C - Air Combo
+S - Air Punch
+D,S - Fly
+
+                                 Tobi
+Start - Tobi Special 
+D,Start - Sharingan 
+Z - Boom!
+D,Z - Fire
+C - LightMoon
+D,C - Klon
+
+P.S. Tobi Avto Regen Health!
+
+                                Pein
+Z - Fire
+C - Air
+D,Z - Earth
+D,C - Lightbolt
+D,F,Z - Water
+S - Rinnengan
+D,S - 5 Boys (D,B - Crab D,A - Panda D,Y - Spirit)
+
+  
+                               Itachi
+Start - Sharingan
+Z - Exploder Klon
+D,Z(hold) - Katon
+D,B - Super Combo
+D,A - Genjutsu
+B(in Air) - Katon Huusinka No Jutsu 
+D,C - Amaterasu
+D,F,C - Tsukiemi
+D,F,Z - Susanoo
+
+                               Sasori
+Z(hold) - Katon
+C - Mine
+800HP Avto -  Sasori  Akatsuki
+
+Z - Box
+C - Mine
+Start(hold) - Block
+D,Y - Kazekage Hand
+D,F,Y - Super Kazekage Hand
+D,A - Mega Box
+D,B - Kazekage Mega Special
+D,C - Sasori Doll
+
+Z(hold) - Katon
+C - Water
+D,B - Slow Doll (D,F,B,A - Control  X - Atack  Z - Redoll)
+D,A - Quick Doll (D,F,B,A - Control  X - Atack  Z - Redoll)
+D,Y - Normal Doll (D,F,B,A - Control  X - Atack  Z - Redoll)
+
+                              Deidara
+Start - Fly (X - Atack  C - Refly)
+D,Start - Exploder Klon
+Z - Spider (D,Z - Explod)
+C - Bird
+D,C - 4 Birds
+D,B - C3
+D,A - 40 Legs! (F,B - Control Z - Explod!)
+D,Y - Mine
+D,F,C - C4
+D,F,Z (200HP) - Karuga!!! Ideal Boom!!!
+
+
+                                  Kisame
+Z - Dragon
+C - Prief
+S -Shield
+D,Z - Snake
+D,C - Shark
+D,B - Clone
+D,Y - Water BOOM
+A,S - Water World
+D,A - Water Chaos
+  
+                                           
+                                Kakuzu
+Z - Fire
+C - Lightbolt
+D,Z - Air
+D,C - Water
+S - Stoyn Body
+D,B - Black Chaos
+D,S - Black Transform
+
+                                   Hidan
+Z - Shi-Shi-Slank
+S - Transform (Player 2 999HP)
+Z - In Heart
+D,Z - In Body
+D,S - Whith Out Head (800HP)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

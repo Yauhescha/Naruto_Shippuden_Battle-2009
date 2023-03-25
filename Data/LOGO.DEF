@@ -1,0 +1,85 @@
+;DRAGONBALL SUPER SAIYANS
+;by SuperVegito (aka Mushfique Junayed Khurshid)
+;EMAIL: mushfiquejk@yahoo.com MSN: mushfiquejk@hotmail.com
+
+
+
+
+[Info]
+name = "intro for Naruto Battle Arena"
+author = "[Inuyasha_pon] >>Fevergame.net"
+
+;---------------------------------------------------------------------
+
+[Scenedef]
+spr = logo.sff
+
+
+;[SceneBG 0]
+;type  = paralax
+;spriteno = 0, 0
+;start = 0, 0
+;width = 1, 1
+;yscalestart = 200
+;yscaledelta = 1
+;tile  = 0,0
+;velocity = 0
+
+
+;[SceneBG 3]
+;type  = normal
+;spriteno = 0,0
+;start = 0, 40
+;mask = 1
+;trans = add
+;------------------------------------
+[Scene 0]
+fadein.time=50
+fadein.col=0,0,0
+fadeout.time=100
+fadeout.col=0,0,0
+clearcolor=10,0,0
+ 
+layerall.pos=0,0
+layer0.anim=0
+
+; Music
+bgm = Soundlogo.mp3
+bgm.loop = 0 
+end.time = 300
+
+
+;------------------------------------
+[Begin Action 0]
+0,3, 0, 0, 300
+;0,1, 0, 0, 400
+;
+;[Scene 1]
+;fadein.time=50
+;fadein.col=0,0,0
+;fadeout.time=0
+;fadeout.col=0,0,0
+;clearcolor=10,0,0
+
+ 
+;layerall.pos=0,0
+;layer0.anim = 2
+;layer1.anim=1
+
+; Music
+;bgm = 
+;bgm.loop = 0 
+;end.time = 150
+
+
+;------------------------------------
+[Begin Action 1]
+1,1, 125, 0, 100
+1,1, 100, 0, 1
+1,1, 75, 0, 1
+1,1, 50, 0, 1
+1,1, 25, 0, 1
+1,1, 0, 0, -1
+
+[Begin Action 2]
+1,0, 0, 0, 300

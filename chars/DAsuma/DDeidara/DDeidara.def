@@ -1,0 +1,20 @@
+[Info]
+name="DDeidara"
+displayname="Deidara"
+versiondate=
+mugenversion=
+author="Twins Cool"
+pal.defaults=1
+[Files]
+sprite=DDeidara.sff
+sound=DDeidara.snd
+anim=DDeidara.air
+cmd=DDeidara.cmd
+cns=DDeidara.cns
+st=DDeidara.cns
+stcommon=common1.cns
+pal1=DDeidara.act
+st1=bunshin.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

@@ -1,0 +1,20 @@
+[Info]
+name="DGaara"
+displayname="GAARA"
+versiondate=
+mugenversion=
+author="Dem0n & Sannin"
+pal.defaults=1
+[Files]
+sprite=DGaara.sff
+sound=DGaara.snd
+anim=DGaara.air
+cmd=DGaara.cmd
+cns=DGaara.cns
+st=DGaara.cns
+stcommon=common1.cns
+pal1=DGaara.act
+st1=Sand.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=
